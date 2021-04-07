@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    background: url("../image/sback1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.service{
+    padding: 13px;
+}
+.service h1{
+text-align: center;
+/* margin: 15px; */
+font-size: 2.1rem;
+color: white;
+}
+.service p{
+    font-size: 20px;
+    color: white;
+
+}
+.serv-1{
+    /* border: 2px solid black; */
+    display: flex;
+    /* margin: 25px 0; */
+}
+.serv-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.serv-img{
+    /* height: 300px;
+    width: 300px; */
+    width: 50%;
+    margin: 9px;
+}
+.serv-img img{
+    background: white;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 6px 9px 8px black;
+    
+}
+.serv2-img{
+    /* height: 300px;
+    width: 300px; */
+    width: 50%;
+    margin: 9px;
+}
+.serv2-img img{
+    background: white;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: -6px 9px 8px black;
+    
+}
+.serv-para{
+  /* border: 2px solid rgb(218, 68, 68); */
+  width: 50%;
+    background: rgba(128, 128, 128, 0.561);
+    display: flex;
+    margin: 9px;
+    box-shadow: -6px 9px 8px black;
+
+}
+.serv-para p{
+    display: flex;
+    height: 50%;
+    width: 75%;
+   justify-content: center;
+    margin: auto auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    /* border-bottom: 2px solid black; */
+}
+@media only screen and (max-width: 715px)
+{   .serv-para{
+    width: 95%;
+    }
+    .serv-para p{
+        display: flex;
+        height: 70%;
+        width: 95%;
+       justify-content: center;
+        margin: auto auto;
+        text-align: center;
+        font-size: 1.1rem;
+        color: white;
+        /* border-bottom: 2px solid black; */
+    }
+
+}
+
+
+/* 2nd responsive  */
+@media only screen and (max-width: 500px)
+{   
+    .serv-para{
+        width: 95%;
+    }
+    .serv-1{
+        flex-direction: column;
+    }
+    .serv-2{
+        
+        flex-direction: column;
+    }
+    .serv-img{
+        /* height: 300px;
+        width: 300px; */
+        width: 95%;
+        margin: 9px;
+    }
+    .serv2-img{
+        width: 95%;
+     
+    }
+  
+
+      .serv-para p{
+          
+        display: flex;
+        height: 200px;
+        width: 75%;
+        margin: auto auto;
+       
+    }
+}
+

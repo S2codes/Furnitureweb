@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: white;
+
+}
+nav{
+    border: 2px solid black;
+    display: flex;
+    background: black;
+
+}
+nav ul{
+    /* border: 2px solid rgb(194, 39, 39); */
+    display: flex;
+    margin: 0 auto;
+}
+nav ul li{
+    /* border: 2px solid rgb(88, 194, 39); */
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 3px;
+    color: white;
+    transition: 1s;
+    padding: 3px;
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.home-image{
+    /* border: 2px solid cyan; */
+    background: url(../image/homeimg.jpg);
+    /* height: 350px; */
+    /* width: 100%; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.title-head{
+height: 650px;
+}
+.home-image h1{
+    display: flex;
+    /* border: 2px solid rgb(251, 63, 94); */
+    text-align: center;
+    justify-content: center;
+   position: relative;
+   top: 65%;
+   left: 0;
+   font-size: 2.5rem;
+   color: white;
+   text-shadow: 2px 2px 6px black;
+   text-transform: uppercase;
+
+}
+.catg-boxes{
+    /* border: 2px solid rgba(77, 219, 42, 0.788); */
+    display: flex;
+    position: relative;
+    top: 80%;
+    background: rgba(90, 89, 89, 0.301);
+    height: 450px;
+}
+
+.box-1{
+    height: 355px;
+    width: 30%;
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+.box-1 img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    margin: auto;
+    
+}
+.box-1 p{
+width: 80%;
+margin: 5px auto;
+font-size: 1.5rem;
+}
+
+/* intro  */
+.intro{
+    /* border: 2px solid black; */
+    margin: 15px 0;
+    /* background: rgba(46, 46, 46, 0.185); */
+}
+.intro h1{
+    text-align: center;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    margin: 5px auto;
+    /* color: white; */
+
+}
+.intro p{
+    text-align: center;
+    font-size: 23px;
+    margin: 5px auto;
+    /* color: white; */
+
+}
+.furD1{
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+.furD1 img{
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+    margin: 10px;
+}
+.furD1-para{
+    /* border: 2px solid black; */
+    border-bottom: 2px solid black;
+    width: 65%;
+    margin:  17px auto;
+}
+.furD2{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    height: 400px;
+    background: url("../image/fur3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.f-para{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: auto auto;
+
+}
+.f-para h2{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+}
+.f-para p{
+    width: 85%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 6px black;
+    font-size: 23px;
+}
+.f-para button{
+    margin: 11px;
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.f-para button a{
+    color: white;
+    text-decoration: none;
+}
+.why{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.why h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.why p{
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 1.3rem;
+}
+.icon-box{
+    /* border: 2px solid rgb(201, 29, 29); */
+    padding: 11px;
+    margin: 25px;
+background: rgba(128, 128, 128, 0.342);
+
+}
+.icon-box ul{
+display: flex;
+margin: auto;
+padding: 9px;
+}
+.icon-box ul li{
+    margin: auto;
+    list-style: none;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.icon-box ul li i{
+    color: orangered;
+}
+.icon-box ul li span{
+    font-size: 2rem;
+    display: flex;
+    margin:15px auto;
+}
+
+footer{
+    /* border: 2px solid black; */
+    
+    background: rgba(0, 0, 0, 0.815);
+}
+.all-foot{
+    /* padding: 3px; */
+    display: flex;  
+    /* margin: auto; */
+}
+.contex, .follow, .addrs{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.contex ul li{
+    list-style: none;
+}
+
+.contex ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.contex ul li a:hover{
+    color: wheat;
+}
+
+
+.follow h4{
+text-align: center;
+font-size: 1.5rem;
+}
+.follow ul{
+    display: flex;
+}
+.follow ul li{
+    margin: 0 9px;
+    list-style: none;
+}
+.follow ul li a i{
+    font-size: 1.8rem;
+    margin: 11px 15px;
+}
+
+.fab.fa-facebook{
+    color: rgb(20, 108, 248);
+}
+.fab.fa-facebook:hover{
+    color: white;
+}
+.fab.fa-instagram{
+    color: rgb(235, 1, 243);
+}
+.fab.fa-instagram:hover{
+    color: white;
+}
+.fab.fa-whatsapp
+{
+    color: rgb(0, 36, 0);
+}
+.fab.fa-whatsapp:hover{
+    color: white;
+}
+
+.addrs ul li{
+    list-style: none;
+    color: white;
+}
+.addrs ul li a{
+    text-decoration: none;
+    color: rgba(204, 55, 1, 0.829);
+}
+.addrs ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.lisence p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.lisence p a{
+    text-decoration: none;
+    color: #4bb0c2;
+}
+
+  /* responsive  */
+  /* 1st responsive  */
+  @media(max-width:1035px)
+{
+    .box-1 img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 0;
+      
+    }
+    .box-1 p{
+        width: 100%;
+        margin:auto auto;
+        font-size: 1.2rem;
+     }
+
+}
+
+
+  /* humburger responsive  */
+
+  @media(max-width:800px)
+  {     
+
+    nav{
+        height: 48px;
+    }
+      nav .main{
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 10;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: #000;
+          transition: top 1s ease;
+          display: none;
+      }
+  
+  nav .main .close{
+      display: block;
+      position: absolute;
+      /* position: relative; */
+      top: 20px;
+      right: 20px;
+  }
+  nav .open{
+      display: block;
+  }
+  nav ul li {
+    margin: 10px auto;
+}
+  nav .main li a:hover{
+      background: none;
+      color: white;
+      font-size: 1.5rem;
+  }
+  
+  .open i, .close i{
+      color: white;
+      position: absolute;
+      /* position: relative; */
+      top: 15px;
+      right: 20px;
+      font-size: 1.8rem;
+  }
+  
+/* catg-boxes responsive  */
+.title-head {
+    height: 400px;
+}
+.home-image h1 {
+    top: 58%;
+}
+.catg-boxes{
+    flex-direction: column;
+    /* position: relative; */
+    top: 55%;
+    /* background: rgba(90, 89, 89, 0.301);
+    */
+    height: 1000px; 
+}
+
+.box-1 {
+    height: 300px;
+    width: 90%;
+}
+
+
+/* .furD1 responsive  */
+.furD1 img {
+    width: 50%;
+    height: 350px;
+    margin: 0px auto;
+}
+.furD1-para{
+    /* border: 2px solid black; */
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin:  11px auto;
+}
+
+
+
+    /* footer responsive  */
+
+
+    .all-foot{
+        padding: 9px;
+        margin: 9px;
+        flex-direction: column;
+    }
+
+    .contex ul li{
+        /* list-style: none; */
+        text-align: center;
+        margin: 9px;
+    }
+    .contex ul li a{
+        font-size: 2rem;
+
+    }
+
+    .follow ul li{
+        margin: 0;
+       
+
+    }
+    .contex ul li a{
+        font-size: 1rem;
+    }
+    .follow h4{
+        font-size: 1.6rem;
+        }
+
+     .addrs ul li{
+        margin: 9px;
+        text-align: center;
+    }
+     .addrs ul li a{
+       font-size: 2rem;
+    }
+
+
+     .lisence p {
+      font-size: 19px;
+    }
+  
+
+
+}
+  
+
+
+
+
+/* 3rd responsive  */
+@media(max-width:500px)
+{
+   nav{
+       margin: 0;
+       padding: 0;
+   }
+
+    .furD1{
+        flex-direction: column;
+    }
+    .furD1 img{
+        width: 98%;
+        height: 350px;
+        object-fit: cover;
+        margin: 7px;
+    }
+    .f-para h2{
+        font-size: 2rem;
+        margin: 9px;
+    }
+    .f-para p{
+        width: 100%;
+        font-size: 19px;
+    }
+  
+/* icon- box  */
+.why h3{
+  
+    font-size: 2rem;
+}
+.icon-box{
+    margin: 11px;
+}
+.icon-box ul{
+    padding: 0x;
+    }
+    .icon-box ul li{
+        font-size: 2.2rem;
+    }
+    .icon-box ul li span{
+        font-size: 1.2rem;
+        display: flex;
+        margin:11px auto;
+    }
+
+
+
+}
+
+
+

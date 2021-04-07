@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.about-para h1{
+    /* border: 2px solid rgb(179, 31, 31); */
+    margin: 9px 19px;
+    font-size: 2.1rem;
+    color: orangered;
+    text-transform: uppercase;
+}
+.about-para p{
+    margin: 9px;
+    font-size: 19px;
+    padding: 18px;
+    
+}
+.about-image{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.about-image img{
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .about-image{
+        flex-direction: column;
+    }
+    .about-image img{
+        width: 100%;
+       
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
